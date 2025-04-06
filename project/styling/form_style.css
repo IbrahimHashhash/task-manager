@@ -1,0 +1,165 @@
+fieldset {
+    width: 400px;
+    padding: 30px;
+    padding-right: 50px;;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgb(218, 246, 255);
+    border-color: lightgreen;
+    border-width: 5px;
+    border-style: solid;
+
+}
+
+legend {
+    font-weight: bold;
+    font-size: 19px;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: lightGreen;
+    border-style: solid;
+    color: white;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+form {
+    border-radius: 20px;
+    margin: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+input, textarea, select {
+    padding:10px 20px;
+    border-color: rgb(196, 234, 247);
+    border-style: solid;
+    border-radius: 20px;
+    font-size: 13px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 15px;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+
+}
+
+label {
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 5px;
+}
+
+select {
+    width: auto; 
+    text-align: center;
+}
+
+input[type="submit"] {
+    border-radius: 50px;
+    width: 100px;
+    background-color: lightblue;
+    color: black;
+    border: none;
+}
+input[type="submit"]:hover {
+    opacity: 0.8;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+input[type="submit"]:active {
+    opacity: 0.5;
+    
+}
+#project-form {
+    padding-right: 70px;
+    width: 100%;
+    max-width: 1000px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+textarea {
+    min-width: 300px;
+    min-height: 100px;
+    max-width: 700px;
+    max-height: 300px;;
+}
+button {
+    border-radius: 30px;
+    font-size: 13px;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    background-color: lightGreen;
+}
+button:hover {
+    opacity: 0.8;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+#task_form {
+    width: 50px;
+    background-color: none;
+    height: 0px;
+    gap: 0px;
+    display: flex;
+    margin-top: -30px;
+    padding: 0px;
+    align-items: center;
+    justify-self: center;
+    
+}
+#task_form output {
+    color: black;
+    margin-top: -20px;
+}
+#task_form button {
+    height: 40px;
+    width: 100px;
+    font-size: 10px;
+    margin: 0px;
+    padding: 5px;;
+    margin-top: 20px;
+}
+#create-task-form fieldset {
+    width: 100%;
+    align-items: left;
+}
+#assign-team-members {
+    margin: 0px;
+}
+#choose-project {
+    margin-left: 0px;
+}
+#choose-project button {
+    margin-left: 220px;
+}
+#choose-project fieldset {
+    width: 600px;
+}
+#search_update_form fieldset {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    gap: 150px;
+    width: 100%;
+    max-width: 1000px;
+    min-width: 900px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: none;
+}
+#signup-form {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+}

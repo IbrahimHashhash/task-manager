@@ -1,0 +1,104 @@
+.header {
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(218, 246, 255);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+}
+.right-section {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    gap:100px;
+    margin-right: 100px;
+
+}
+.middle-section {
+    display: flex;
+    align-items: center;
+}
+.left-section {
+    align-items: center;
+    display: flex;
+    margin-left: 20px;
+}
+.right-section a {
+    text-decoration: none;
+    color: rgb(46, 154, 190);
+    padding: 7px;
+    border-radius: 50px;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+
+}
+.right-section a:hover  {
+    background-color: rgb(155, 226, 174);
+    color: white;
+}
+.right-section a:active {
+    background-color: rgb(63, 195, 72);
+    color: white;
+}
+#logotxt {
+    color: rgb(46, 154, 190);
+    cursor: pointer;
+}
+#logotxt:hover {
+    color: rgb(144, 215, 231);
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+#confirmation {
+    border: none;
+    width: 0px;
+    padding: 0px;
+}
+.container_confirm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#userPhoto {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.user_nav {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+    gap: 50px;
+}
+#uprofile {
+    margin-top: -20px;
+    margin-left: 50px;
+}
+.userContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(99, 198, 231);
+    border-radius: 50px;
+    color: white;
+    padding: 7px;
+    transition: none;
+}
+.user_info {
+    margin-top: -40px;
+    font-size: 11px;
+}

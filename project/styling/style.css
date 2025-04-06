@@ -1,0 +1,325 @@
+html, body {
+    height: 100%; 
+    margin: 0;
+    width: 100%;
+    font-family: 'Rationale', 'Arial';
+    background-color: rgb(72, 164, 221);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(72, 164, 221);
+}
+
+main {
+    background-color: rgb(72, 164, 221);
+    margin-top: 50px;
+    margin-left: 0px;
+    padding: 20px; 
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(121, 183, 221);
+}
+
+
+#profile {
+    background-color: rgb(218, 246, 255);
+    color: white;
+    border-radius: 20px;
+    padding: 20px;
+    padding-right: 30px;
+    margin-top: 50px;
+    width: 720px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+}
+#profile p {
+    font-size: 20px;
+    background-color: lightSkyBlue;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+
+}
+#profile p:hover {
+    background-color: lightblue;
+    transform: scale(1.02);
+    cursor: pointer;
+}
+#profile h2 {
+    font-size: 30px;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    background-color: lightgreen;
+    color: rgb(255, 255, 255);
+}
+.main-view {
+    display: flex;
+    align-items: left;
+    flex-direction: row;
+    margin-bottom: 100px;
+
+}
+.left-view {
+    margin:0px;
+    align-items: left;
+
+}
+.right-view {
+    margin-left: 50px;
+    max-width: 700px;
+
+}
+#successful_container {
+    background-color: lightskyblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    gap: 20px;
+    font-size: 20px;
+    height: 100%; 
+}
+.accept {
+    width: 0px;
+    padding: 0px;
+}
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.main-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 50px;
+    height: 700px;
+    margin-top: 10px;
+    width: 320px;
+    margin-right: 0px;
+    height: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgb(93, 175, 226);
+    
+}
+.main-navigation a {
+    width:100%;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}
+.main-navigation a:hover {
+    color: lightgreen;
+    transform: scale(1.02);
+}
+.main-navigation a:active {
+    color: lightblue;
+}
+.main-navigation h2 {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 20px;
+    margin: 30px;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: lightgreen;
+    color: white;
+}
+.search {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    max-width: 800px;
+    padding: 20px;
+    padding-right: 290px;
+    gap: 10px;
+    border-radius: 20px;
+    width: 100%;
+    background-color: rgb(93, 175, 226);
+
+
+}
+.t-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    background-color: rgb(218, 246, 255);
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+.t-info p {
+    color: white;
+    width: 100%;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    padding: 10px;
+    background-color: lightskyblue;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition-property: all;
+    transition-duration: 0.6s;
+    transition-timing-function: ease-out;
+
+}
+.t-info p:hover {
+    background-color: lightblue;
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+.t-info h2 {
+    color: white;
+    font-size: 30px;
+    margin: 30px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 20px;
+    color: lightskyblue;
+}
+.task-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    flex-direction: row;
+    gap: 200px;
+    margin-top: 20px;
+}
+.task-details table {
+    margin-left: -20px;
+}
+
+.nav-link {
+    display: block;
+    margin: 5px 0;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+    padding: 20px;
+    font-size: 27px;
+    font-weight: bold;
+    border-radius: 50px;
+}
+
+
+.nav-link-active {
+    display: block;
+    margin: 5px 0;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+    padding: 20px;
+    font-size: 27px;
+    font-weight: bold;
+    border-radius: 50px;
+    background-color: #0056b3;
+}
+
+.nav-link:hover {
+    background-color: #3f82c9;
+    color: white;
+}
+.error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+#cancel {
+    background-color: red;
+    border-radius: 30px;
+    border: none;
+    padding: 10px;
+    background-color: lightblue;
+    margin-left: 30px;
+}
+h2 {
+    margin: 30px;
+    background-color:#DAF6FF;
+    padding: 20px;
+    border-radius: 20px;
+    color: rgb(72, 164, 221);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.success {
+    color: green;
+    font-size: 12px;
+    margin-top: 5px;
+}
+#assigned {
+    background-color: rgb(252, 252, 126);
+    color: red;
+}
+#assigned:hover {
+    background-color: rgb(255, 255, 255);
+    color: red;
+}
+.p-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.error_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    height: 100%;
+    background-color: rgb(93, 175, 226);
+    font-size: 30px;
+}
+.error_container p {
+    font-size: 16px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 20px;
+    width: 100%;
+    max-height: 500px;
+    max-width: 500px;
+}
+.doc-icon {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    transition-property: all;
+    transition-duration: 0.6s;
+    transition-timing-function: ease-out;
+
+}
+.doc-icon:hover {
+    transform: scale(1.5);
+
+}
+.success_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    height: 100%;
+    font-size: 30px;
+    width: 100%;
+    height: 100%;
+}
+.success_container p {
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 20px;
+}
+#reject {
+    background-color: red;
+}

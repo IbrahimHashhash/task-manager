@@ -1,0 +1,168 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.2);
+}
+table thead {
+    background-color: #000000;
+}
+
+
+table th {
+    border: 1px solid black;
+    margin: 10px;
+    text-align: center;
+    font-weight: bold;
+    padding: 12px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}
+
+table th:hover {
+    background-color: #808f9d;
+}
+
+table td {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+    vertical-align: middle;
+}
+
+table tr:nth-child(even) {
+    border: 1px solid black;
+
+    background-color: #ecf0f1;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+
+}
+
+table tr:nth-child(odd) {
+    border: 1px solid black;
+    background-color: #ffffff;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}
+
+table tr:hover {
+    background-color: rgb(180, 237, 180);
+    transform: scale(1.02);
+}
+
+table a {
+
+    border-radius: 50px;
+    color: #2980b9;
+    text-decoration: none;
+    transition-property: color;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}
+
+table a:hover {
+    color: #3498db;
+    text-decoration: underline;
+}
+
+#priority-low {
+    background-color: rgb(138, 206, 138);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    transition-property: background-color;
+    transition-duration: 0.6s;
+    transition-timing-function: ease-out;
+
+}
+
+#priority-medium {
+    background-color: rgb(230, 230, 130);
+    color: black;
+    padding: 5px 10px;
+    border-radius: 3px;
+    transition-property: all;
+    transition-duration: 0.6s;
+    transition-timing-function: ease-out;
+
+}
+
+#priority-high {
+    background-color: rgb(221, 107, 107);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    transition-property: all;
+    transition-duration: 0.6s;
+    transition-timing-function: ease-out;
+}
+
+.status-pending {
+    font-style: italic;
+    background-color: lightgray;
+}
+
+#priority-low:hover {
+    background-color: #00ff44;
+}
+
+.status-in-progress {
+    font-weight: bold;
+    background-color: lightblue;
+}
+
+#priority-medium {
+    background-color: #faeb13;
+}
+
+.status-completed {
+    text-decoration: line-through;
+    border: solid 1px green;
+    background-color: rgb(84, 244, 84);
+}
+
+#priority-high:hover {
+    background-color: rgb(255, 51, 0);
+
+}
+
+.status-pending:hover {
+    background-color: #a9a9a9;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+.status-in-progress:hover {
+    background-color: #87ceeb;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+.status-completed:hover {
+    background-color: #32cd32;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.02);
+}
+#task_id {
+font-weight: bold;
+font-size: 17px;
+transition-property: font-size;
+transition-duration: 0.5s;
+transition-timing-function: ease-out;
+color: white;
+}
+
+input[type="range"] {
+    width: 50px; /* Adjust this value to make the slider shorter */
+}
